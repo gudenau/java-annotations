@@ -12,4 +12,23 @@
         <maven.compiler.source>1.9</maven.compiler.source>
         <maven.compiler.target>1.9</maven.compiler.target>
     </properties>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A small library with some annotations.</description>
+    <url>https://github.com/gudenau/java-annotations</url>
+
+    <developers>
+        <developer>
+            <name>gudenau</name>
+            <email>gudenau@gudenau.net</email>
+            <organization>gudenau</organization>
+            <organizationUrl>https://gudenau.net</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/gudenau/java-annotations.git</connection>
+        <developerConnection>scm:git:ssh://github.com:gudenau/java-annotations.git</developerConnection>
+        <url>https://github.com/gudenau/java-annotations/tree/master</url>
+    </scm>
 </project>
