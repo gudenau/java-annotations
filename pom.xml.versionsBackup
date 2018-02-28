@@ -5,7 +5,7 @@
 
     <groupId>net.gudenau.lib.annotation</groupId>
     <artifactId>Annotations</artifactId>
-    <version>1.0.1.1</version>
+    <version>1.0.0.0</version>
 
     <properties>
         <maven.compiler.source>1.9</maven.compiler.source>
