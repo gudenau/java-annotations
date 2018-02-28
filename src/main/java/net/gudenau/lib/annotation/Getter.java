@@ -12,4 +12,9 @@ import java.lang.annotation.Target;
  * */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD})
-public @interface Getter{}
+public @interface Getter{
+    /**
+     * The visibility of the getter.
+     * */
+    Visibility value() default Visibility.PUBLIC;
+}
